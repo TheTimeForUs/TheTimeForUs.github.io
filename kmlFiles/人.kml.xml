@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>人</name>
+    <Style id="line-C2185B-5456-nodesc-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-C2185B-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-C2185B-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-C2185B-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-C2185B-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>人</name>
+      <styleUrl>#line-C2185B-5456-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          170.5100012,-45.8687212,0
+          170.5071473,-45.8679443,0
+          170.5067825,-45.8674213,0
+          170.5061603,-45.8664949,0
+          170.5058384,-45.8659122,0
+          170.5061603,-45.8664949,0
+          170.5065894,-45.8671374,0
+          170.5071473,-45.8679443,0
+          170.5063748,-45.8681385,0
+          170.5057526,-45.8683327,0
+          170.5051517,-45.868512,0
+          170.5047226,-45.8686166,0
+          170.5041218,-45.8688557,0
+          170.5034566,-45.8689304,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
